@@ -1,0 +1,58 @@
+.contact-page {
+  margin-top: 100px;
+}
+
+.main-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 80px;
+}
+
+.info-left {
+  width: 20%;
+  padding-bottom: 200px;
+}
+
+.info-title {
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 70px;
+  color: #363636;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.info-left ul li {
+  font-size: 15px;
+  line-height: 30px;
+  color: #808080;
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.contact-form input {
+  line-height: 35px;
+  border: 1px solid #8080803f;
+  width: 300px;
+  padding: 0 20px;
+}
+
+.input-message input {
+  border: 1px solid #8080803f;
+  padding: 0px 0px 50px 20px;
+}
+
+#message {
+  height: 100px;
+  width: 620px;
+  margin: 20px 0;
+}

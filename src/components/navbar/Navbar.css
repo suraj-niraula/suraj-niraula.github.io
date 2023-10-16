@@ -1,0 +1,120 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px 10%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: white;
+  z-index: 1;
+}
+
+.logo {
+  width: 100%;
+  max-width: 160px;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu a {
+  color: #2c2c2c;
+  font-size: 14px;
+  padding: 10px 20px;
+  font-weight: 400;
+  transition: all 0.42s ease;
+}
+
+.nav-menu a:hover {
+  color: #930404;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+}
+
+.nav-icons i {
+  margin-right: 20px;
+  color: #2c2c2c;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.42s ease;
+}
+
+.nav-icons i:hover {
+  transform: scale(1.1);
+  color: #930404;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-icon .bx-cart {
+  font-size: 20px;
+  color: #2c2c2c;
+  transition: all 0.42s ease;
+}
+
+.cart-count {
+  font-size: 14px;
+  position: absolute;
+  top: -12px;
+  right: 12px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+}
+
+#menu-icon {
+  font-size: 25px;
+  color: #2c2c2c;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .nav-icons .bx-menu:not(:nth-child(5)) {
+    display: none;
+    transition: 0.2s ease;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-menu li:not(:nth-child(1)):not(:nth-child(3)):not(:nth-child(4)) {
+    display: none;
+    transition: 0.2s ease;
+  }
+
+  .nav-icons .bx-menu:not(:nth-child(5)) {
+    display: none;
+    transition: 0.2s ease;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Hide the navigation links */
+  .nav-menu li {
+    display: none;
+  }
+
+  /* Hide Navigation icons */
+  .nav-icons a {
+    display: none;
+  }
+
+  /* Display menu icon */
+  .nav-icons .bx-menu:not(:nth-child(5)) {
+    display: block;
+    transition: 0.2s ease;
+  }
+}
