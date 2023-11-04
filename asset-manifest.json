@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/suraj-niraula.github.io/static/css/main.2c46e1fe.css",
-    "main.js": "/suraj-niraula.github.io/static/js/main.37600f68.js",
-    "static/js/787.f02aa03d.chunk.js": "/suraj-niraula.github.io/static/js/787.f02aa03d.chunk.js",
-    "static/media/online.jpg": "/suraj-niraula.github.io/static/media/online.d95a4ce99317965c017e.jpg",
-    "static/media/aboutUs.png": "/suraj-niraula.github.io/static/media/aboutUs.4ef0c1e88fc61419fff2.png",
-    "static/media/cover.avif": "/suraj-niraula.github.io/static/media/cover.0b91198bf35a0166d058.avif",
-    "static/media/reservation.webp": "/suraj-niraula.github.io/static/media/reservation.348935d137881931f574.webp",
-    "static/media/Eggs Benedict on asparagus with bacon and hollandaise sauce.png": "/suraj-niraula.github.io/static/media/Eggs Benedict on asparagus with bacon and hollandaise sauce.3624c1595c4589e827fe.png",
-    "static/media/image1.png": "/suraj-niraula.github.io/static/media/image1.d1e4adbf25f8b1f9d8b6.png",
-    "static/media/main-logo.png": "/suraj-niraula.github.io/static/media/main-logo.69b68c72722b033f1dc5.png",
-    "index.html": "/suraj-niraula.github.io/index.html",
-    "main.2c46e1fe.css.map": "/suraj-niraula.github.io/static/css/main.2c46e1fe.css.map",
-    "main.37600f68.js.map": "/suraj-niraula.github.io/static/js/main.37600f68.js.map",
-    "787.f02aa03d.chunk.js.map": "/suraj-niraula.github.io/static/js/787.f02aa03d.chunk.js.map"
+    "main.css": "/static/css/main.635f2269.css",
+    "main.js": "/static/js/main.add80423.js",
+    "static/js/787.f02aa03d.chunk.js": "/static/js/787.f02aa03d.chunk.js",
+    "static/media/online.jpg": "/static/media/online.d95a4ce99317965c017e.jpg",
+    "static/media/aboutUs.png": "/static/media/aboutUs.4ef0c1e88fc61419fff2.png",
+    "static/media/cover.avif": "/static/media/cover.0b91198bf35a0166d058.avif",
+    "static/media/reservation.webp": "/static/media/reservation.348935d137881931f574.webp",
+    "static/media/Eggs Benedict on asparagus with bacon and hollandaise sauce.png": "/static/media/Eggs Benedict on asparagus with bacon and hollandaise sauce.3624c1595c4589e827fe.png",
+    "static/media/image1.png": "/static/media/image1.d1e4adbf25f8b1f9d8b6.png",
+    "static/media/main-logo.png": "/static/media/main-logo.69b68c72722b033f1dc5.png",
+    "index.html": "/index.html",
+    "main.635f2269.css.map": "/static/css/main.635f2269.css.map",
+    "main.add80423.js.map": "/static/js/main.add80423.js.map",
+    "787.f02aa03d.chunk.js.map": "/static/js/787.f02aa03d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c46e1fe.css",
-    "static/js/main.37600f68.js"
+    "static/css/main.635f2269.css",
+    "static/js/main.add80423.js"
   ]
 }
