@@ -28,7 +28,6 @@ const Home = ({ addToCart }) => {
 
   // Call the addToCart function to update the cart count
   const handleAddToCart = () => {
-    const itemName = "Eggs Benedict with Asparagus";
     const itemPrice = 19.0;
     const itemQuantity = 1;
 

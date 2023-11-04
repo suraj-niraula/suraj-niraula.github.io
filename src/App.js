@@ -26,13 +26,13 @@ function App() {
     <BrowserRouter>
       <Navbar cartCount={cartItems.length} />
       <Routes>
+        <Route path="/" element={<Home addToCart={addToCart} />} />
         <Route path="/home" element={<Home addToCart={addToCart} />} />
         <Route path="/about" element={<About />} />
         <Route path="/menu" element={<OurMenu />} />
         <Route path="/reservation" element={<Reservation />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<Cart cartItems={cartItems || []} />} />
-        <Route element={<Home addToCart={addToCart} />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

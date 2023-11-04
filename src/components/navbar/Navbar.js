@@ -8,7 +8,6 @@ const Navbar = ({ cartCount }) => {
     <header>
       {/* <!-- Logo --> */}
       <Link to={`/home`}>
-        {" "}
         <img class="logo" src={logo} alt="logo" />
       </Link>
       {/* <!-- nav menu --> */}
